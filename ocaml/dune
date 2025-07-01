@@ -1,0 +1,9 @@
+(library
+ (name aqi_classification)
+ (modules aqi_classification)
+ (libraries zarith))
+
+(executable
+ (name ocaml_main)
+ (modules ocaml_main)
+ (libraries aqi_classification zarith))
