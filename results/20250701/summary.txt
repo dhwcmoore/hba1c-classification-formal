@@ -1,0 +1,2 @@
+Correlation (Systolic vs Total Cholesterol): 0.225
+Correlation (Diastolic vs Total Cholesterol): 0.231

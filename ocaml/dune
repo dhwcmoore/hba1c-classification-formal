@@ -7,3 +7,8 @@
  (name ocaml_main)
  (modules ocaml_main)
  (libraries aqi_classification zarith))
+
+(executable
+ (name main_nhanes)
+ (modules main_nhanes nhanes_data_processor)
+ (libraries zarith))
